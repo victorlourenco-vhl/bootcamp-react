@@ -1,5 +1,3 @@
-# Bootcamp React - Carrefour Web Developer
-
 ## Stateful: usa estados
 * Ciclo de vida (Initialization, Mounting, Updation, Unmounting)
 
