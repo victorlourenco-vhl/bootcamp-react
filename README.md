@@ -1,3 +1,29 @@
+# Bootcamp React - Carrefour Web Developer
+## Webpack 
+- É um module bundler(um empacotaor de módulos para aplicações JS)
+- Gerar bundler que será utilizado no HTML, em ES5
+
+### Souporte 
+- Fontes
+- CSS
+- Imagens
+- HTML
+- JS
+- Plugins
+
+### Configuração:
+- Entry - utilizado grafo, o Webpack precisa de um ponto de entrada
+- Output - É para determinar quais são os bundlers que ele irá emitir
+- Loaders - Gerencia arquivos
+- Plugins - São utilizados para otimização de pacotes, minificação, injeção de scripts...
+- Mode - Configuração zero(production, development ou none)
+- Developmente - É executado com 3 plugins(UglifyJsPlugin, ModuleConcatenationPlugin e NoEmitOnErrosPlugin)
+
+### Criação do arquivo de webpack.config.JS
+- npm i -D webpack webpack-cli "build": "webpack --mode production"
+    - npm i -D webpack webpack-cli
+    - npm install --save-dev webpack webpack-cli
+- npm i @babel/core babel-loader @babel/present-env @babel/preset-react --save-dev
 ## Stateful: usa estados
 - Ciclo de vida (Initialization, Mounting, Updation, Unmounting)
 
@@ -16,3 +42,4 @@
 - Bibliotecas
     - Formik
     - Redux-forms
+
