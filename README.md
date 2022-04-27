@@ -43,3 +43,27 @@
     - Formik
     - Redux-forms
 
+## Flux
+- Padrão de projeto para tráfego unidirecional
+- Arquitetura do Flux:
+    - Action: É como um telégrafo - Formata a mensagem a ser enviada
+    - Dispatcher: É um um telefonista - Sabe todos os callbacks para diferentes stores
+    - Store: Gerente - Controla e executa as alterações
+    - View: Gerente intermediário(middleware) - Recebe alterações e passa os dados para as visões abaixo dela
+- Principais implementações:
+    - Redux
+    - Reflux
+    - Mobx
+    - Vuex 
+    - NgRx/store
+- Bibliotecas baseadas em Flux
+    - Serve para comunicação entre componentes
+    - Centraliza informações 
+## Redux
+1. Single source of truth: Uma única store
+2. State é read-only
+3. Mudanças são feitas com pure functions
+- Views
+    - Provider
+    - Connect
+    - Selector
